@@ -21,8 +21,9 @@ public class DrawRocket {
 
     // printStr prints a given string a given # of times
     private static void printStr(int n, String str){
-        for(int i = 0 ; i < n ; i++)
+        for (int i = 0; i < n; i++) {
             System.out.print(str);
+        }
     }
 
     // drawTop draws the top of the rocket. The number of slashes change based on the SIZE variable.
